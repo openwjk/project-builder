@@ -21,8 +21,8 @@ public class GeneratorEnv {
 //        String appName = args[1];
 //        String targetBasePath = args[2];
         String templateName = TemplateEnum.BASE.getDirectory();
-        String appName = "exam";
-        String targetBasePath = "F:\\workspace\\java\\exam";
+        String appName = "central";
+        String targetBasePath = "E:\\workspace\\java\\central";
         ProjectBuilderEngine.createProject(appName,templateName,targetBasePath);
     }
 }
