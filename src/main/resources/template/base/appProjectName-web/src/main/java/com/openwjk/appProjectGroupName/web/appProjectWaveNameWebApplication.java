@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan("com.openwjk")
+@ComponentScan("com.openwjk.#{appProjectName}")
 @MapperScan(basePackages = {"com.openwjk.#{appProjectGroupName}.dao.mapper"}, annotationClass = Mapper.class)
 public class #{appProjectWaveName}WebApplication extends SpringBootServletInitializer {
 
